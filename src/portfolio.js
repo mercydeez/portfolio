@@ -207,7 +207,7 @@ const bigProjects = {
         },
         {
           name: "GitHub Repository",
-          url: "https://github.com/mercydeez/forest-fire-detection-module/"
+          url: "https://github.com/mercydeez/forest-fire-risk-prediction"
         }
       ]
     },
