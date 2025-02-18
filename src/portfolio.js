@@ -23,10 +23,11 @@ const greeting = {
   username: "Atharva Soundankar",
   title: "Hi all, I'm Atharva",
   subTitle: emoji(
-    "An aspiring data scientist who turns raw data into valuable insights, like a sculptor shaping a masterpiece from stone. Always learning, always evolving."
+    "A dedicated data analyst with a passion for transforming raw data into actionable insights. Continuously evolving and expanding knowledge to grow into a skilled data scientist, driven by learning and innovation."
   ),
-  resumeLink: "https://drive.google.com/uc?export=download&id=1FcwnODkhAL-N6sSy7yGISzpLiozA2dZx", 
-displayGreeting: true // This will show the greeting section in the landing page
+  resumeLink: 
+   "https://drive.google.com/uc?export=download&id=1FcwnODkhAL-N6sSy7yGISzpLiozA2dZx", // Set to empty to hide the button
+  displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
@@ -46,72 +47,78 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CURIOUS DATA SCIENTIST WHO LOVES FINDING HIDDEN PATTERNS IN DATA",
+  title: "What I Do",
+  subTitle:"DATA ANALYST | ASPIRING DATA SCIENTIST | REVEALING INSIGHTS",
   skills: [
-    emoji(
-      "⚡ Gather and clean data using Python libraries like Pandas."
-    ),
-    emoji("⚡ Visualize and analyze data patterns with Matplotlib and Seaborn."),
-    emoji(
-      "⚡ Create, train, and evaluate machine learning models using Scikit-Learn."
-    )
+    emoji("⚡ Collect, clean, and preprocess data using Python (Pandas, NumPy)."),
+    emoji("⚡ Perform exploratory data analysis (EDA) to uncover hidden patterns."),
+    emoji("⚡ Visualize data effectively with Matplotlib, Seaborn, and Power BI."),
+    emoji("⚡ Build, train, and evaluate machine learning models with Scikit-Learn."),
+    emoji("⚡ Work with SQL databases for querying and managing structured data."),
+    emoji("⚡ Deploy and manage data projects using Git, Docker, and AWS.")
   ],
-
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/ico ns?d=gallery */
 
-  softwareSkills: [
-    {
-      skillName: "HTML-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "CSS3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "Python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "R programming",
-      fontAwesomeClassname: "fab fa-r-project"
-    },
-    {
-      skillName: "Excel",
-      fontAwesomeClassname: "fas fa-file-excel"
-    },
-    {
-      skillName: "Android",
-      fontAwesomeClassname: "fab fa-android"
-    },
-    {
-      skillName: "Sql-Database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-       skillName: "AWS",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "NPM",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "Docker",
-      fontAwesomeClassname: "fab fa-docker"
-    },
-    {
-      skillName: "Kaggle",
-      fontAwesomeClassname: "fab fa-kaggle"
-    },
-    {
-      skillName: "Hacherrank",
-      fontAwesomeClassname: "fab fa-hackerrank"
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
+softwareSkills: [
+  {
+    skillName: "HTML5",
+    fontAwesomeClassname: "fab fa-html5"
+  },
+  {
+    skillName: "CSS3",
+    fontAwesomeClassname: "fab fa-css3-alt"
+  },
+  {
+    skillName: "Python",
+    fontAwesomeClassname: "fab fa-python"
+  },
+  {
+    skillName: "SQL",
+    fontAwesomeClassname: "fas fa-database"
+  },
+  {
+    skillName: "Excel",
+    fontAwesomeClassname: "fas fa-file-excel"
+  },
+  {
+    skillName: "Power BI",
+    fontAwesomeClassname: "fas fa-chart-pie"
+  },
+  {
+    skillName: "Pandas",
+    fontAwesomeClassname: "fas fa-chart-line"
+  },
+  {
+    skillName: "NumPy",
+    fontAwesomeClassname: "fas fa-square-root-alt"
+  },
+  {
+    skillName: "Matplotlib",
+    fontAwesomeClassname: "fas fa-chart-bar"
+  },
+  {
+    skillName: "Seaborn",
+    fontAwesomeClassname: "fas fa-palette"
+  },
+  {
+    skillName: "Kaggle",
+    fontAwesomeClassname: "fab fa-kaggle"
+  },
+  {
+    skillName: "Git & GitHub",
+    fontAwesomeClassname: "fab fa-git-alt"
+  },
+  {
+    skillName: "Docker",
+    fontAwesomeClassname: "fab fa-docker"
+  },
+  {
+    skillName: "AWS",
+    fontAwesomeClassname: "fab fa-aws"
+  }
+],
+display: true // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -186,24 +193,23 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: " Projects💡",
+  title: "Projects💡",
   subtitle: "SHOWCASING MY BEST WORK",
   projects: [
     {
       image: require("./assets/images/no_risk.png.png"),
       projectName: "Forest Fire Risk Prediction",
-projectDesc: "A beginner-friendly Machine Learning project that predicts the risk of forest fires based on environmental factors. Built with Streamlit, this project provides real-time predictions and insightful visualizations.",
-footerLink: [
-  {
-    name: "Live Demo",
-    url: "https://forest-fire-risk-prediction-d9vmff5zuuvjvgoyjqjvpr.streamlit.app/"
-  },
-  {
-    name: "GitHub Repository",
-    url: "https://github.com/yourusername/forest-fire-risk-prediction/"
-  }
-]
-
+      projectDesc: "A beginner-friendly Machine Learning project that predicts the risk of forest fires based on environmental factors. Built with Streamlit, this project provides real-time predictions and insightful visualizations.",
+      footerLink: [
+        {
+          name: "Live Demo",
+          url: "https://forest-fire-risk-prediction-d9vmff5zuuvjvgoyjqjvpr.streamlit.app/"
+        },
+        {
+          name: "GitHub Repository",
+          url: "https://github.com/mercydeez/forest-fire-detection-module/"
+        }
+      ]
     },
     {
       image: require("./assets/images/image.png"),
@@ -226,15 +232,15 @@ footerLink: [
       projectDesc: "This project looks at Google Play Store data to find trends in app categories, ratings, installations, and performance. Using Python, Pandas, Seaborn, and Matplotlib, it shows key insights through simple and interactive visualizations.",
       footerLink: [
         {
-          name: "Github Repository",
+          name: "Github Respository",
           url: "https://github.com/mercydeez/Google-Play-Analysis"
         }
-        //  you can add extra buttons here.
       ]
     },
   ],
   display: true // Set false to hide this section, defaults to true
 };
+
 
 // Achievement Section
 // Include certificates, talks etc
