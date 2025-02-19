@@ -35,10 +35,11 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/mercydeez",
   linkedin: "https://www.linkedin.com/in/atharva-soundankar/",
-  gmail: "atharva3895@gmail.com",
-  facebook: "https://www.facebook.com/atharva.soundankar.7/",
-  twitter: "https://x.com/Atharva3895",
+  medium: "https://medium.com/@atharva3895/",
   instagram: "https://www.instagram.com/atharva_soundankar/",
+  twitter: "https://x.com/Atharva3895",
+  facebook: "https://www.facebook.com/atharva.soundankar.7/",
+  gmail: "atharva3895@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -148,20 +149,20 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Programming", //Insert stack or technology you have experience in
-      progressPercentage: "50%" //Insert relative proficiency in percentage
+      Stack: "Programming & Scripting",
+      progressPercentage: "60%"  // Python, SQL, etc.
     },
     {
-      Stack: "Database",
-      progressPercentage: "60%"
+      Stack: "Data Analysis & Visualization",
+      progressPercentage: "65%"  // Data Analysis, Data Visualization, etc.
     },
     {
-      Stack: "Data Visualization",
-      progressPercentage: "70%"
+      Stack: "Machine Learning & Statistics",
+      progressPercentage: "50%"  // Machine Learning (Basics), Statistics, etc.
     },
     {
-      Stack: "Leadership",
-      progressPercentage: "80%"
+      Stack: "Leadership & Soft Skills",
+      progressPercentage: "70%"  // Leadership, Communication, Problem-solving, etc.
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
