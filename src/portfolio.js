@@ -213,8 +213,8 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/image.png"),
-      projectName: "UPI_Transactions Analysis Dashboard",
+      image: require("./assets/images/UPIBI.png"),
+      projectName: "UPI Transactions Analysis Dashboard",
       projectDesc: "This Power BI dashboard analyzes UPI transaction trends, payment methods, and regional insights. It provides data-driven insights into UPI growth, helping to understand patterns and improve decision-making in digital payments.",
       footerLink: [
         {
@@ -224,6 +224,21 @@ const bigProjects = {
         {
           name: "Github Repository",
           url: "https://github.com/mercydeez/UPI_Dashboard_PowerBI"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/MurphyBI.png"),
+      projectName: "Insurance Analysis Dashboard",
+      projectDesc: "This Power BI dashboard provides insights into Murphy Insurance Pvt. Ltd.'s policy sales, claims, customer demographics, and revenue trends. It helps track key trends, monitor active policies, and make better strategic business decisions with data-driven insights.",
+      footerLink: [
+        {
+          name: "View Dashboard",
+          url: "https://app.powerbi.com/groups/me/reports/2c40c8c8-4d2a-4568-8764-8c3940130c99/553669a642656e9f145a?ctid=d0d192ac-6b94-47ea-b38c-5bb83fd8c443&experience=power-bi"
+        },
+        {
+          name: "Github Repository",
+          url: "https://github.com/mercydeez/Murphy_Insurance"
         }
       ]
     },
