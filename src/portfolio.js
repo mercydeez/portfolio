@@ -26,7 +26,7 @@ const greeting = {
     "A dedicated data analyst with a passion for transforming raw data into actionable insights. Continuously evolving and expanding knowledge to grow into a skilled data scientist, driven by learning and innovation."
   ),
   resumeLink: 
-   "https://drive.google.com/uc?export=download&id=1FcwnODkhAL-N6sSy7yGISzpLiozA2dZx", // Set to empty to hide the button
+   "https://drive.google.com/uc?export=download&id=1fhTttWOzMEV1gZnFCAaiEqicADqDwUof", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
