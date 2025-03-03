@@ -40,6 +40,7 @@ const socialMediaLinks = {
   twitter: "https://x.com/Atharva3895",
   facebook: "https://www.facebook.com/atharva.soundankar.7/",
   gmail: "atharva3895@gmail.com",
+  kaggle:"https://www.kaggle.com/atharvasoundankar",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
