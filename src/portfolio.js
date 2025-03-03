@@ -49,7 +49,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I Do",
-  subTitle:"DATA ANALYST | ASPIRING DATA SCIENTIST | REVEALING INSIGHTS",
+  subTitle:"A DIGITAL DETECTIVE, SOLVING MYSTERIES ONE DATASET AT A TIME.",
   skills: [
     emoji("⚡ Collect, clean, and preprocess data using Python (Pandas, NumPy)."),
     emoji("⚡ Perform exploratory data analysis (EDA) to uncover hidden patterns."),
