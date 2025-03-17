@@ -306,6 +306,10 @@ const achievementSection = {
         {
           name: "View Research Paper",
           url: "https://drive.google.com/file/d/1xk20KhieetT-3ELAabTpBuZrNOR6HiXj/view?usp=drive_link"
+        },
+        {
+          name: "Certificate",
+          url: "https://drive.google.com/file/d/1hVYyRinfadoW7OdbZ0QVBBMjI15oUE4x/view?usp=drive_link"
         }
       ]
     }
