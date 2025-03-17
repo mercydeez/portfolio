@@ -181,6 +181,7 @@ const workExperiences = {
       date: "December 2024 – Present",
       desc: "In my role as a Data Analyst, I collected, cleaned, and analyzed data to identify trends and patterns, created reports and dashboards, and provided actionable insights to support business decisions and improve operational efficiency."
     }
+    
   ]
 };
 
@@ -294,7 +295,23 @@ const achievementSection = {
           url: "https://www.hackerrank.com/certificates/iframe/55fe6e819027"
         }
       ]
+    },
+    {
+      title: "Research Paper Published: AI Revolution in the Virtual Reality Industry",
+      subtitle:
+        "Proud to announce that my research paper is officially published in the International Journal of Computer Research & Technology (IJCRT), Vol-10, Issue-1, January-June 2025. This paper dives deep into how Artificial Intelligence is transforming the Virtual Reality industry through AI-driven avatars, enhanced realism, and healthcare simulations.",
+      image: require("./assets/images/banner.png"),
+      imageAlt: "Research Paper on AI in VR",
+      footerLink: [
+        {
+          name: "View Research Paper",
+          url: "https://drive.google.com/file/d/1xk20KhieetT-3ELAabTpBuZrNOR6HiXj/view?usp=drive_link"
+        }
+      ]
     }
+    
+    
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
