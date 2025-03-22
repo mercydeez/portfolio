@@ -56,8 +56,7 @@ const skillsSection = {
     emoji("⚡ Perform exploratory data analysis (EDA) to uncover hidden patterns."),
     emoji("⚡ Visualize data effectively with Matplotlib, Seaborn, and Power BI."),
     emoji("⚡ Build, train, and evaluate machine learning models with Scikit-Learn."),
-    emoji("⚡ Work with SQL databases for querying and managing structured data."),
-    emoji("⚡ Deploy and manage data projects using Git, Docker, and AWS.")
+    emoji("⚡ Work with big data technologies like Apache Spark and Hadoop."),
   ],
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/ico ns?d=gallery */
