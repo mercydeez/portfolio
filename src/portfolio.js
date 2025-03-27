@@ -23,10 +23,10 @@ const greeting = {
   username: "Atharva Soundankar",
   title: "Hi all, I'm Atharva",
   subTitle: emoji(
-    "A dedicated data analyst with a passion for transforming raw data into actionable insights. Continuously evolving and expanding knowledge to grow into a skilled data scientist, driven by learning and innovation."
+    "Dedicated Data Analyst passionate about transforming raw data into actionable insights. Constantly learning and evolving to master Big Data technologies and Data Science, aiming to build scalable and impactful data-driven solutions"
   ),
   resumeLink: 
-   "https://drive.google.com/uc?export=download&id=1fhTttWOzMEV1gZnFCAaiEqicADqDwUof", // Set to empty to hide the button
+   "https://drive.google.com/uc?export=download&id=1ZrYKzwYjGwi9EBrmnpQ5_x7sBvDyG_ZE", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -87,28 +87,16 @@ softwareSkills: [
     fontAwesomeClassname: "fas fa-chart-pie"
   },
   {
-    skillName: "Pandas",
-    fontAwesomeClassname: "fas fa-chart-line"
-  },
-  {
-    skillName: "NumPy",
-    fontAwesomeClassname: "fas fa-square-root-alt"
-  },
-  {
-    skillName: "Matplotlib",
-    fontAwesomeClassname: "fas fa-chart-bar"
-  },
-  {
-    skillName: "Seaborn",
-    fontAwesomeClassname: "fas fa-palette"
-  },
-  {
     skillName: "Kaggle",
     fontAwesomeClassname: "fab fa-kaggle"
   },
   {
-    skillName: "Git & GitHub",
+    skillName: "Git",
     fontAwesomeClassname: "fab fa-git-alt"
+  },
+  {
+    skillName: "GitHub",
+    fontAwesomeClassname: "fab fa-github"
   },
   {
     skillName: "Docker",
@@ -117,6 +105,22 @@ softwareSkills: [
   {
     skillName: "AWS",
     fontAwesomeClassname: "fab fa-aws"
+  },
+  {
+    skillName: "Google Cloud (GCP)",
+    fontAwesomeClassname: "fab fa-google"
+  },
+  {
+    skillName: "Microsoft Azure",
+    fontAwesomeClassname: "fab fa-microsoft"
+  },
+  {
+    skillName: "MongoDB",
+    fontAwesomeClassname: "fas fa-leaf" // Alternative since MongoDB has no FA icon
+  },
+  {
+    skillName: "Snowflake",
+    fontAwesomeClassname:"fas fa-snowflake" // Custom SVG for Snowflake
   }
 ],
 display: true // Set false to hide this section, defaults to true
