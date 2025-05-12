@@ -287,6 +287,19 @@ const achievementSection = {
       ]
     },
     {
+      title: "Cloud Data Analytics Certificate",
+      subtitle:
+        "Completed a certificate program focused on cloud-based data analytics, including SQL, data cleaning, visualization, and business intelligence. Developed skills to analyze and present data insights for roles like cloud data analyst and cloud operations analyst.",
+      image: require("./assets/images/google-cloud-data-analytics-certificate.png"),
+      imageAlt: "Hackerrank l",
+      footerLink: [
+        {
+          name: "Certificate",
+          url: "https://www.credly.com/badges/1b182445-2b1c-4b40-8dc4-467fe4ba4433/public_url"
+        }
+      ]
+    },
+    {
       title: "HackerRank SQL Certified",
       subtitle:
         "Earned the HackerRank Basic SQL Certificate, demonstrating proficiency in SQL fundamentals, including querying databases, filtering data, and performing basic joins and aggregations.",
