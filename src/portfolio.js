@@ -218,17 +218,17 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/UPIBI.png"),
-      projectName: "UPI Transactions Analysis Dashboard",
-      projectDesc: "This Power BI dashboard analyzes UPI transaction trends, payment methods, and regional insights. It provides data-driven insights into UPI growth, helping to understand patterns and improve decision-making in digital payments.",
+      image: require("./assets/images/lung.png"),
+      projectName: "Lung Cancer Risk Prediction App",
+      projectDesc: "The Lung Cancer Risk Prediction App is a Streamlit-based ML web app that predicts lung cancer risk from user symptoms using a Random Forest model. Built for learning and demo purposes, it features real-time prediction, a clean UI, and visual insights, all powered by Python and scikit-learn.",
       footerLink: [
         {
-          name: "View Dashboard",
-          url: "https://app.powerbi.com/groups/3497fe1f-7ddc-47fb-9bbd-61ef5071b8fa/reports/9150a168-6ce6-4760-afad-4956636faa14?ctid=d0d192ac-6b94-47ea-b38c-5bb83fd8c443&pbi_source=linkShare"
+          name: "Live Demo",
+          url: "https://mercydeez-lung-cancer-predictor-app-cc7nc0.streamlit.app/"
         },
         {
           name: "Github Repository",
-          url: "https://github.com/mercydeez/UPI_Dashboard_PowerBI"
+          url: "https://github.com/mercydeez/lung_cancer_predictor"
         }
       ]
     },
