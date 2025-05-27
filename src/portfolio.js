@@ -115,8 +115,8 @@ softwareSkills: [
     fontAwesomeClassname: "fab fa-microsoft"
   },
   {
-    skillName: "MongoDB",
-    fontAwesomeClassname: "fas fa-leaf" // Alternative since MongoDB has no FA icon
+    skillName: "HackerRank",
+    fontAwesomeClassname: "fab fa-hackerrank" // Alternative since MongoDB has no FA icon
   },
   {
     skillName: "Snowflake",
