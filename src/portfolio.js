@@ -313,6 +313,19 @@ const achievementSection = {
       ]
     },
     {
+      title: "Hands On Essentials - Data Warehouse",
+      subtitle:
+        "Completed a transformative workshop on Snowflake, covering identity/access management, data container management, ETL, and semi-structured data. Ready to apply these skills in future projects.",
+      image: require("./assets/images/DWW.png"),
+      imageAlt: "Research Paper on AI in VR",
+      footerLink: [
+        {
+          name: "Certificate",
+          url: "https://achieve.snowflake.com/4dce4d1a-5fc0-46a0-89f4-3d1d993d0185#acc.f3hSnZGQ"
+        }
+      ]
+    },
+    {
       title: "Research Paper Published: AI Revolution in the Virtual Reality Industry",
       subtitle:
         "Proud to announce that my research paper is officially published in the International Journal of Computer Research & Technology (IJCRT), Vol-10, Issue-1, January-June 2025. This paper dives deep into how Artificial Intelligence is transforming the Virtual Reality industry through AI-driven avatars, enhanced realism, and healthcare simulations.",
