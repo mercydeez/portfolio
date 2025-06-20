@@ -135,7 +135,8 @@ const educationInfo = {
       schoolName: "Savitribai Phule Pune  University",
       logo: require("./assets/images/sppu.png"),
       subHeader: "Master of Science in Computer Application",
-      duration: "September 2023 - July 2025"
+      duration: "September 2023 - July 2025",
+       desc: "Passed with 'A+' Grade"
     },
     {
       schoolName: "Savitribai Phule Pune University",
