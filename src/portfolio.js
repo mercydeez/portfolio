@@ -184,8 +184,14 @@ const workExperiences = {
       companylogo: require("./assets/images/manasvi.png"),
       date: "December 2024 – Present",
       desc: "In my role as a Data Analyst, I collected, cleaned, and analyzed data to identify trends and patterns, created reports and dashboards, and provided actionable insights to support business decisions and improve operational efficiency."
+    },
+    {
+      role: "Founder & CEO",
+      company: "CodeTriumph Technologies",
+      companylogo: require("./assets/images/code_triumph.png"),
+      date: "February 2025 – June 2025",
+      desc: "In my role as the Founder & CEO, I lead the company's vision and strategy, overseeing all operations and ensuring the delivery of high-quality solutions to our clients."
     }
-    
   ]
 };
 
@@ -363,6 +369,12 @@ const blogSection = {
       title: "Timeless Leadership Lessons from Chhatrapati Shivaji Maharaj for Data Science & AI",
       description:
         "Explore how the strategic brilliance of Chhatrapati Shivaji Maharaj aligns with key principles in Data Science and AI, from data-driven decision-making to cybersecurity, adaptability, and innovation."
+    },
+    {
+      url: "https://medium.com/@atharva3895/how-lanka-naresh-ravans-mindset-is-used-in-ai-today-and-its-vision-for-the-future-85fb6731f792",
+      title: "How Lanka Naresh Ravan’s Mindset is Used in AI Today — And Its Vision for the Future",
+      description:
+        "Today, as the world builds Artificial Intelligence (AI), we are, knowingly or unknowingly, adopting the same mindset Ravan lived by — powerful, intelligent, and dangerously capable."
     },
   ],
   display: true // Set false to hide this section, defaults to true
