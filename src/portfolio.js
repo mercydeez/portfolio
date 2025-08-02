@@ -182,7 +182,7 @@ const workExperiences = {
       role: "Jr.Data Analyst",
       company: "Manasvi Tech Solutions Pvt.Ltd.",
       companylogo: require("./assets/images/manasvi.png"),
-      date: "December 2024 – Present",
+      date: "December 2024 – July 2025",
       desc: "In my role as a Data Analyst, I collected, cleaned, and analyzed data to identify trends and patterns, created reports and dashboards, and provided actionable insights to support business decisions and improve operational efficiency."
     },
     {
