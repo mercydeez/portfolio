@@ -133,7 +133,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "S P Jain School of Global Management ",
-      logo: require("./assets/images/spj.jpg"),
+      logo: require("./assets/images/spj.png"),
       subHeader: "Master of Artificial Intelligence In Business",
       duration: "September 2025 - September 2027",
       desc: "Admitted"
