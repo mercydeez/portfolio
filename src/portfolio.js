@@ -132,6 +132,13 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
+      schoolName: "S P Jain School of Global Management ",
+      logo: require("./assets/images/spj.jpg"),
+      subHeader: "Master of Artificial Intelligence In Business",
+      duration: "September 2025 - September 2027",
+      desc: "Admitted"
+    },
+    {
       schoolName: "Savitribai Phule Pune  University",
       logo: require("./assets/images/sppu.png"),
       subHeader: "Master of Science in Computer Application",
@@ -145,6 +152,7 @@ const educationInfo = {
       duration: "September 2020 - July 2023",
       desc: "Passed with 'A' Grade"
     }
+   
   ]
 };
 
