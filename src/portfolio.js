@@ -23,8 +23,7 @@ const greeting = {
   username: "Atharva Soundankar",
   title: "Hi all, I'm Atharva",
   subTitle: emoji(
-    "Dedicated Data Analyst passionate about transforming raw data into actionable insights. Constantly learning and evolving to master Big Data technologies and Data Science, aiming to build scalable and impactful data-driven solutions"
-  ),
+    "Data Analyst & AI Practitioner with expertise in Python, SQL, Power BI, and ML. I turn raw data into actionable insights and build scalable, end-to-end AI solutions that automate processes and solve real business challenges."),
   resumeLink: 
    "https://drive.google.com/file/d/1BpRqrxAIG7yWJ7Av0qY5q5kFB3fYgty2/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
